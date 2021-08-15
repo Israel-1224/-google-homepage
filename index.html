@@ -1,41 +1,127 @@
 <!DOCTYPE html>
 <html lang ="en">
     <head>
-     
-        </style>
+        <style>
+            img{
+                padding: 0px;
+                align-items: center;
+                justify-content: center;
+                justify-content: center;
+                margin-left: 800px;
+                max-width: 300px;
+            }
+
+            #search{
+                margin-left: 700px;
+                margin: 100;
+                font-family: inherit;
+                font-size: inherit;
+                line-height: inherit;
+            }
+
+            #b{
+                margin-left: 785px;
+                padding: 1rem;
+                color: inherit;
+                cursor: pointer;  
+                
+            }
+
+            #b1{
+                border: gray;
+                border-radius: 15px; 
+                width: 150px;
+                height: 25px;
+            }
+
+            #b2{
+                border: gray;
+                border-radius: 15px; 
+                width: 150px;
+                height: 25px;
+            }
+
+            input{
+                margin: 40;
+                display: block;
+                width: 40%;
+                height: 2rem;
+                padding: 0rem 0.25rem;
+                color: #565758;
+                background-color: #fff;
+                background-clip: padding-box;
+                border: 1px solid #ced4da;
+                border-radius: 25px;
+                transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            }
+
+            #google{
+                position: relative;
+                top: 150px;
+            }
+
+            footer {
+                font-weight: 340;
+                padding: .5rem;
+                background: #D3D3D3;
+                padding: auto;
+                position: relative;
+                top: 440px;
+            }  
+            
+            ul {
+                width: 35vw;
+                
+            }
+
+            li {
+            list-style: none;
+            }
+
+            #superior{
+                position: relative;
+                text-align: justify;
+                word-spacing: 10px;
+                left: 1600px;
+            }
+            
+            
+
+
+
+        </style> 
     </head>
 
     <body>
-
         <ul class="nav-list">
             <li>
-              <a>Gmail</a>
-              <a>imagenes</a>
+              <a id="superior">Gmail Imagenes</a>
+
             </li>
           </ul>
 
-     <section id="imagen">
+     <section id="google">
         <img src="https://miracomohacerlo.com/wp-content/uploads/2019/05/logo-google.jpg">
-        <div>
+        <div id ="search">
              <label id="name-label" ></label>
              <input
              type="text"
              class="form-control"
             />
         </div>
+        <div id="b">
+            <button name="button" id="b1">Buscar con google</button>
+            <button name="button" id="b2">Me siento con suerte</button>
+            <ul>
+                <li>
+                  <a>Ofrecido por google en:  </a>
+                  <a style="color:blue">Español</a>  
+                </li>
+            </ul>   
+        </div>
      </section>   
-    
-
-    <div>
-        <button name="button">Buscar con google</button>
-        <button name="button">Me siento con suerte</button>
-        <p>Ofrecido por google en </p>
-        <p>Español</p>   
-    </div>
-
-
-    <p>Mexico</p>
-    <footer>
+    <footer id="abajo">
+        <p>Mexico</p>
         <ul class="nav-list2">
             <li>
               <a>Sobre google</a>
@@ -51,9 +137,7 @@
               <a>Preferencias</a>
             </li>
         </ul>
-
     </footer> 
-    
 
     </body>
     
